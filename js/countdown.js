@@ -18,7 +18,7 @@
 		//main countdown function
 		function countdown_proc() {
 			
-			eventDate = Date.parse('september 26 2022 18:47:52') / 1000;
+			eventDate = Date.parse('september 26 2022 23:00:00') / 1000;
 			currentDate = Math.floor($.now() / 1000);
 			
 			if(eventDate <= currentDate) {
