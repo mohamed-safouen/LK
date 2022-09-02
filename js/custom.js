@@ -19,7 +19,9 @@
     $("body").vegas({
       delay: 20000,
       slides: [
-        {video: {
+        {
+          src: "images/slide-image02.jpg",
+          video: {
             src: ["images/Wrath.mp4"],
             loop: true,
             mute: true,
@@ -29,9 +31,8 @@
       timer: false,
       transition: ["zoomOut"],
     });
-    $.vegas.isVideoCompatible = function () {
-      var devices = /(Android|webOS|Phone|iPad|iPod|BlackBerry|Windows Phone)/i;
-      return !devices.test(navigator.userAgent);
-    };
-
+$.vegas.isVideoCompatible = function () {
+  var devices = /(Android|webOS|Phone|iPad|iPod|BlackBerry|Windows Phone)/i;
+  return !devices.test(navigator.userAgent);
+};
 })(jQuery);
