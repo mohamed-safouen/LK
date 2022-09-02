@@ -29,5 +29,9 @@
       timer: false,
       transition: ["zoomOut"],
     });
+    $.vegas.isVideoCompatible = function () {
+      var devices = /(Android|webOS|Phone|iPad|iPod|BlackBerry|Windows Phone)/i;
+      return !devices.test(navigator.userAgent);
+    };
 
 })(jQuery);
