@@ -19,9 +19,7 @@
     $("body").vegas({
       delay: 20000,
       slides: [
-        {
-          src: "images/slide-image02.jpg",
-          video: {
+        {video: {
             src: ["images/Wrath.mp4"],
             loop: true,
             mute: true,
