@@ -20,7 +20,26 @@ https://templatemo.com/tm-521-get-ready
     width: 100%;
     overflow-x: hidden;
   }
-
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+   object-fit: cover;
+  height: 100%;
+  width: 100%;
+  opacity:50%;
+}
+.video-wrapper {
+  border: 2px solid #000;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
   /*---------------------------------------
